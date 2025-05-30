@@ -1,0 +1,64 @@
+{
+    "layer": "top",
+    "position": "top",
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "window"
+    ],
+    "modules-right": [
+        "custom/media",
+        "pulseaudio",
+        "backlight",
+        "battery",
+        "clock",
+        "custom/power"
+    ],
+    "custom/media": {
+        "format": "{icon} {artist} - {title}",
+        "max-length": 40,
+        "exec": "playerctl metadata --format '{{ artist }} - {{ title }}'",
+        "return-type": "json",
+        "interval": 5
+    },
+    "custom/power": {
+        "format": "\uf011",
+        "on-click": "systemctl poweroff",
+        "tooltip": "Desligar"
+    },
+    "clock": {
+        "format": "{:%H:%M - %d/%m}",
+        "tooltip-format": "{:%A, %d de %B de %Y}"
+    },
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-icons": [
+            "\uf244",
+            "\uf243",
+            "\uf242",
+            "\uf241",
+            "\uf240"
+        ]
+    },
+    "backlight": {
+        "format": "\uf185 {percent}%"
+    },
+    "pulseaudio": {
+        "format": "\uf028 {volume}%",
+        "format-muted": "\uf466"
+    },
+    "window": {
+        "format": "{}"
+    },
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "1": "\uf120",
+            "2": "\uf269",
+            "3": "\uf121",
+            "4": "\uf07c",
+            "5": "\uf001"
+        }
+    }
+}
