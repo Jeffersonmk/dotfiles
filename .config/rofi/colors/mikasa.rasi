@@ -1,8 +1,0 @@
-* {
-    background:     #2B1E1EFF; /* tom escuro próximo ao castanho dos cabelos e jaqueta */
-    background-alt: #3C2B2BFF; /* um pouco mais claro para contraste */
-    foreground:     #FBEDEEFF; /* tom de pele claro/pálido da personagem */
-    selected:       #D97B93FF; /* rosa quente/pêssego do fundo */
-    active:         #E63946FF; /* vermelho vibrante do cachecol */
-    urgent:         #F1A208FF; /* dourado suave da luz de fundo */
-}
