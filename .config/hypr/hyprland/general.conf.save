@@ -1,0 +1,3 @@
+# Desabilitar vrr no Hyprland devido a um problema no Quickshell
+
+misc:vrr = 0
