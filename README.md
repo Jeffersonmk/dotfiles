@@ -4,7 +4,6 @@ Configuração pessoal usando Hyprland.
 
 ## 📸 Preview
 
-> Adicione aqui uma imagem do seu sistema
 
 ```md
 ![screenshot](./assets/preview.png)
