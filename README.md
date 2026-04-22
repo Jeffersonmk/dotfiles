@@ -4,10 +4,7 @@ Configuração pessoal usando Hyprland.
 
 ## 📸 Preview
 
-
-```md
 ![screenshot](./assets/preview.png)
-```
 
 ---
 
@@ -42,9 +39,7 @@ Esse sistema permite abrir uma janela com interface personalizada para consultar
 
 > Adicione aqui uma imagem da interface de binds
 
-```md
 ![keybinds](./assets/keybinds.png)
-```
 
 ---
 
