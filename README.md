@@ -1,4 +1,4 @@
-# 🧊 Hyprland Setup
+# Hyprland Setup
 
 Configuração pessoal usando Hyprland.
 
@@ -15,7 +15,7 @@ Minha área de trabalho utiliza como base um layout pronto do projeto de dotfile
 🔗 https://github.com/end-4/dots-hyprland
 
 Esse projeto usa:
-- Hyprland → https://hyprland.org  
+- Hyprland → https://github.com/hyprwm/hyprland
 - Quickshell → https://github.com/quickshell-mirror/quickshell  
 
 A partir dessa base, utilizo algumas configurações personalizadas no Hyprland, incluindo:
@@ -36,8 +36,6 @@ https://github.com/end-4/dots-hyprland
 Esse sistema permite abrir uma janela com interface personalizada para consultar as binds de forma rápida.
 
 ### 📸 Preview das Keybinds
-
-> Adicione aqui uma imagem da interface de binds
 
 ![keybinds](./assets/keybinds.png)
 
